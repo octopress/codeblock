@@ -24,7 +24,6 @@ module Octopress
       end
         
       def get_options
-        defaults = { escape: true }
         clean_markup = CodeHighlighter.clean_markup(@markup)
 
         if clean_markup =~ CaptionUrlTitle

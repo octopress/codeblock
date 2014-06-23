@@ -2,7 +2,7 @@
 
 Write beautiful code snippets within any template.
 
-[![Build Status](https://travis-ci.org/octopress/octopress-codeblock.png?branch=master)](https://travis-ci.org/octopress/octopress-codeblock)
+[![Build Status](https://travis-ci.org/octopress/codeblock.png?branch=master)](https://travis-ci.org/octopress/codeblock)
 
 ## Installation
 
