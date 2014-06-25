@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2 - 2014-06-24
+- Fix: strip whitespace
+
 ## 1.0.2 - 2014-06-23
 - Fix: account for codeblocks with no options
 

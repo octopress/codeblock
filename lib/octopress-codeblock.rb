@@ -14,7 +14,7 @@ module Octopress
       end
 
       def render(context)
-        code = super.encode("UTF-8")
+        code = super.strip.encode("UTF-8")
 
         begin
           highlight(code, get_options)
