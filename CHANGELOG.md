@@ -1,6 +1,9 @@
 # Changelog
 
 ## 1.0.2 - 2014-06-24
+- Relaxed dependency versions.
+
+## 1.0.2 - 2014-06-24
 - Fix: strip whitespace
 
 ## 1.0.2 - 2014-06-23

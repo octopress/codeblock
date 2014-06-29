@@ -13,9 +13,9 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/octopress/codeblock"
   gem.license       = "MIT"
 
-  gem.add_runtime_dependency 'jekyll', '~> 2.0.3'
-  gem.add_runtime_dependency 'octopress-code-highlighter', '~> 4.0.1'
+  gem.add_runtime_dependency 'octopress-code-highlighter', '~> 4.0'
 
+  gem.add_development_dependency 'jekyll'
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
 
