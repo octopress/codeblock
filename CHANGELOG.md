@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4 - 2014-06-29
+- Updated to latest octopress-code-highlighter.
+
 ## 1.0.3 - 2014-06-28
 - Relaxed dependency versions.
 
