@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.2 - 2014-06-24
+## 1.0.3 - 2014-06-28
 - Relaxed dependency versions.
 
 ## 1.0.2 - 2014-06-24
