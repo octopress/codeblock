@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency 'jekyll'
   gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'clash'
 
   gem.files         = `git ls-files`.split($/)
   gem.require_paths = ["lib"]
