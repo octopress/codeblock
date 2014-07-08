@@ -1,2 +1,2 @@
 build: true
-compare: _site/index.html expected.html
+compare: _expected _site

@@ -3,3 +3,5 @@ markdown: redcarpet
 highlighter: pygments
 pygments_aliases:
   abc: ruby
+exclude:
+  - Gemfile*
