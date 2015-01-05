@@ -3,22 +3,22 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'octopress-codeblock/version'
 
-Gem::Specification.new do |gem|
-  gem.name          = "octopress-codeblock"
-  gem.version       = Octopress::Codeblock::VERSION
-  gem.authors       = ["Brandon Mathis"]
-  gem.email         = ["brandon@imathis.com"]
-  gem.description   = %q{Write beautiful code snippets within any template.}
-  gem.summary       = %q{Write beautiful code snippets within any template.}
-  gem.homepage      = "https://github.com/octopress/codeblock"
-  gem.license       = "MIT"
+Gem::Specification.new do |spec|
+  spec.name          = "octopress-codeblock"
+  spec.version       = Octopress::Codeblock::VERSION
+  spec.authors       = ["Brandon Mathis"]
+  spec.email         = ["brandon@imathis.com"]
+  spec.description   = %q{Write beautiful code snippets within any template.}
+  spec.summary       = %q{Write beautiful code snippets within any template.}
+  spec.homepage      = "https://github.com/octopress/codeblock"
+  spec.license       = "MIT"
 
-  gem.add_runtime_dependency 'octopress-code-highlighter', '~> 4.2'
+  spec.add_runtime_dependency 'octopress-code-highlighter', '~> 4.2'
 
-  gem.add_development_dependency 'jekyll'
-  gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'clash'
+  spec.add_development_dependency 'jekyll'
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'clash'
 
-  gem.files         = `git ls-files`.split($/)
-  gem.require_paths = ["lib"]
+  spec.files         = `git ls-files -z`.split("\x0").grep(/^(bin\/|lib\/|assets\/|changelog|readme|license)/i)
+  spec.require_paths = ["lib"]
 end

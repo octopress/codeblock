@@ -58,3 +58,14 @@ module Octopress
 end
 
 Liquid::Template.register_tag('codeblock', Octopress::Codeblock::Tag)
+
+if defined? Octopress::Docs
+  Octopress::Docs.add({
+    name:        "Octopress Codeblock",
+    gem:         "octopress-codeblock",
+    description: "A Liquid tag for writing beatuiful code snippets",
+    path:        File.expand_path(File.join(File.dirname(__FILE__), "../")),
+    source_url:  "https://github.com/octopress/codeblock",
+    version:     Octopress::Codeblock::VERSION
+  })
+end

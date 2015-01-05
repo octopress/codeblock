@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.5 - 2015-01-04
+- Documented options and added an example.
+
+## 1.0.4 - 2015-01-03
+- Added support for Octopress docs
+
 ## 1.0.4 - 2014-06-29
 - Updated to latest octopress-code-highlighter.
 
