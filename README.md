@@ -3,6 +3,7 @@
 Write beautiful code snippets within any template.
 
 [![Build Status](https://travis-ci.org/octopress/codeblock.png?branch=master)](https://travis-ci.org/octopress/codeblock)
+[![Gem Version](https://badge.fury.io/rb/octopress-codeblock.png)](http://badge.fury.io/rb/octopress-codeblock)
 
 ## Installation
 
