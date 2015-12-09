@@ -1,5 +1,9 @@
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
 name: Your New Jekyll Site
-markdown: redcarpet
 highlighter: pygments
 pygments_aliases:
   abc: ruby
